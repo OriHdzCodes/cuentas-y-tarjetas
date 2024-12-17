@@ -4,7 +4,7 @@ class Tarjeta{
     private:
         int cvv;
         std::string nombre;
-        int num_tarjeta;
+        unsigned_int num_tarjeta;
         int vencimiento;
         std::string tipo;
 
