@@ -10,13 +10,13 @@ class Tarjeta{
 
     public:
         Tarjeta();
-        Tarjeta(int,std::string,int,int,std::string);
+        Tarjeta(int,std::string,unsigned_int,int,std::string);
 
         void setcvv(int);
 
         int getcvv();
         std::string getNombre();
-        int getNum_tarjeta() const; //cambie
+        unsigned_int getNum_tarjeta() const; 
         int getVencimiento();
         std::string getTipo();
 
