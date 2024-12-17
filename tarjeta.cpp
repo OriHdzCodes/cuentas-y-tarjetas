@@ -12,7 +12,7 @@ std::string Tarjeta::getNombre() {
     return nombre;
 }
 
-int Tarjeta::getNum_tarjeta() const{ //cambie agrege const
+unsigned_int Tarjeta::getNum_tarjeta() const{ 
     return num_tarjeta;
 }
 
@@ -28,7 +28,7 @@ Tarjeta::Tarjeta(){
 
 }
 
-Tarjeta::Tarjeta(int cvvv, std::string nombrev, int num_tarjetav, int vencimientov, std::string tipov){
+Tarjeta::Tarjeta(int cvvv, std::string nombrev, unsigned_int num_tarjetav, int vencimientov, std::string tipov){
     cvv = cvvv;
     nombre = nombrev;
     num_tarjeta = num_tarjetav;
